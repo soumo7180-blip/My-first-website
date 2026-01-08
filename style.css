@@ -8,13 +8,20 @@ h1 {
 }
 section {
         background-color: white;
-        padding: 15px;
-        margin: 15px 0;
-        border-radius: 6px;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        text-align: center;
 }
 a {
-   color: #0066cc;
-   text-decoration: none;
+  display: inline-block;
+   color: white;
+   padding: 8px 14px;
+   background-color: #0066cc;
+   border-radius: 4px;
+   
+   
 }
 a:hover {
    text-decoration: underline;
@@ -34,4 +41,18 @@ form {
 img {
   max-width: 100%;
   height: auto;
+}
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+}
+button {
+  background-color: #0066cc;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

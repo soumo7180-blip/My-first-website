@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First HTML</title>
     <link rel="stylesheet" href="style.css">
-   </head>
+  </head>
   <body>
      <header>
       <h1>Welcome</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
       </header>
      <main>
-      <section>
-     <h2>My first lesson of HTML and CSS</h2>
-     <p>I am learning to build websites on Android</p>
-     </section>
-     <section>
-     <h2>Why am I learning HTML and CSS?</h2>
-     <p>First of all I love to learn new things.</p>
-     <p>And developing software has been my dream for a very long time</p>
-     <p>It's the first step to start something new</p>
-      <p>So, why wait?</p>
-      </section>
-      <section>
-      <h2>What do I want to build?</h2>
-      <p>Well, I have many things in my mind.</p>
-     <p>But as a beginner first, I want to build a full functioning website.</p>
-     <p>Like the ones out there in the Internet</p>
-     </section>
-  
-     <section>
-      <p>
-     <a href="https://github.com/soumo7180-blip/My-first-website">Link to my Github repository </a>
-     </p>
-     </section>
-     <section>
-     <h2>Here is a image of a cat:</h2>
-     <img src="images.jpeg" alt="Image not available">
-     </section>
-     <section>
-     <h2>Things I want to learn</h2>
-       <ul>
-       <li>HTML</li>
-       <li>CSS</li>
-       <li>Javascript</li>
-       </ul>
-     </section>
-     <section>
-       <h2>Contact me</h2>
-       <form>
-         <label for="username">Name:</label><br>
-         <input id="username" type="text" placeholder="Your name"><br><br>
-         <label for="email">Email:</label><br>
-         <input id="email" type="email" placeholder="Your Email"><br><br>
-         <label for="message">Message:</label><br>
-         <textarea id="message" rows="4" placeholder="Your message"></textarea><br><br>
-          <button>Submit</button>
-       </form>
-     </section>
+       <div class="container">
+       <section>
+        <h2>My first lesson of HTML and CSS</h2>
+        <p>I am learning to build websites on Android</p>
+       </section>
+       <section>
+        <h2>Why am I learning HTML and CSS?</h2>
+        <p>First of all I love to learn new things.</p>
+        <p>And developing software has been my dream for a very long time</p>
+        <p>It's the first step to start something new</p>
+         <p>So, why wait?</p>
+        </section>
+        <section>
+         <h2>What do I want to build?</h2>
+         <p>Well, I have many things in my mind.</p>
+         <p>But as a beginner first, I want to build a full functioning website.</p>
+         <p>Like the ones out there in the Internet</p>
+       </section>
+       <section class="link">
+        <p>
+        <a target="_blank"href="https://github.com/soumo7180-blip/My-first-website">Link to my Github repository </a>
+        </p>
+       </section>
+       <section>
+        <h2>Here is a image of a cat:</h2>
+        <img src="images.jpeg" alt="Image not available">
+       </section>
+       <section>
+        <h2>Things I want to learn</h2>
+        <ul>
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>Javascript</li>
+        </ul>
+       </section>
+       <section>
+        <h2>Contact me</h2>
+         <form>
+          <label for="username">Name:</label>
+          <input id="username" type="text" placeholder="Your name">
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="Your Email">
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" placeholder="Your message"></textarea>
+          <button class="submit">Submit</button>
+         </form>
+        </section>
+       </div>
      </main>
-      <footer>
-       <p>© 2026 Soumo | Built with Html and CSS</p>
-       </footer>
+    <footer>
+     <p>© 2026 Soumo | Built with Html and CSS</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
